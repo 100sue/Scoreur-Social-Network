@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Scoreur Tube" content="Réseau social des Scoreurs permettant de partager des vidéos, des experiences, des skills, des entrainements.">
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Profile Page - Scoreur Social Network - Scoreur Tube Channel</title>
+    <script src="https://kit.fontawesome.com/fd2510f013.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+                                    <!-------------- Navbar ------------------->
+    <nav>
+        <div class="nav-left">
+            <img src="images/logo.png" alt="logo du réseau social des scoreurs">
+            <ul>
+                <li><img src="images/notification.png" alt="logo "></li>
+                <li><img src="images/inbox.png" alt="logo "></li>
+                <li><img src="images/video.png" alt="logo "></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+
+            <div class="search-box">
+                <img src="images/search.png" alt="logo de recherche">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/profile-pic.png" alt="photo de l'auteur">
+            </div>
+        </div>
+                                            <!------- Settings Menu ------>
+
+        <div class="settings-menu">
+            <div id="dark-btn" class="dark-btn-on">
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="">
+                    <div>
+                        <p>Scoreur 7</p>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png" alt="">
+                    <div>
+                        <p>Give Feedbaxk</p>
+                        <a href="#">Help us to improve new skills</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings-links">
+                    <img src="images/setting.png" alt="" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" alt="" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/help.png" alt="" class="settings-icon">
+                    <a href="#">Help & Support <img src="images/arrow.png" alt="" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/display.png" alt="" class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="images/arrow.png" alt="" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/logout.png" alt="" class="settings-icon">
+                    <a href="#">Logout <img src="images/arrow.png" alt="" width="10px"></a>
+                </div>
+         </div>
+    </nav>
+                                        <!-------------- Page du profil ------------------->
+    <div class="profile-container">
+        <img src="images/cover.png" alt="photo de couverture" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="images/profile.png" alt="photo de l'auteur" class="pd-images">
+                    <div>
+                        <h3>Scoreur 7</h3>
+                        <p>185 friends - 45 mutual</p>
+                        <img src="images/member-1.png" alt="photo du membre">
+                        <img src="images/member-2.png" alt="photo du membre">
+                        <img src="images/member-3.png" alt="photo du membre">
+                        <img src="images/member-4.png" alt="photo du membre">
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right">
+                <button type="button"><img src="images/add-friends.png" alt="">Friends</button>
+                <button type="button"><img src="images/message.png" alt="">Messages</button>
+                <br>
+                <a href="#"><img src="images/more.png" alt=""></a>
+            </div>
+        </div>
+        <div class="profile-info">
+            <div class="info-col">
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">Believe in yourself and you can do unbelievable things. <img src="images/feeling.png" alt=""></p>
+                    <hr>
+                    <ul>
+                        <li><img src="images/profile-job.png" alt=""> Director at Scoreur Corp.</li>
+                        <li><img src="images/profile-study.png" alt=""> Studied at Scoreur University</li>
+                        <li><img src="images/profile-home.png" alt=""> Lives in Paris, France</li>
+                        <li><img src="images/profile-location.png" alt=""> From Paris, France</li>
+                    </ul>
+                </div>
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                        <a href="#">All Photos</a>
+                    </div>
+                    <div class="photo-box">
+                        <div><img src="images/photo1.png" alt=""></div>
+                        <div><img src="images/photo2.png" alt=""></div>
+                        <div><img src="images/photo3.png" alt=""></div>
+                        <div><img src="images/photo4.png" alt=""></div>
+                        <div><img src="images/photo5.png" alt=""></div>
+                        <div><img src="images/photo6.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                        <a href="#">All Friends</a>
+                    </div>
+                    <p>240 (10 mutual)</p>
+                    <div class="friends-box">
+                        <div><img src="images/member-1.png" alt=""><p>Joseph N</p></div>
+                        <div><img src="images/member-2.png" alt=""><p>Ali V</p></div>
+                        <div><img src="images/member-3.png" alt=""><p>Karim B</p></div>
+                        <div><img src="images/member-4.png" alt=""><p>Veronica S</p></div>
+                        <div><img src="images/member-5.png" alt=""><p>Tony P</p></div>
+                        <div><img src="images/member-6.png" alt=""><p>Greg L</p></div>
+                        <div><img src="images/member-7.png" alt=""><p>Max h</p></div>
+                        <div><img src="images/member-8.png" alt=""><p>Gerfaut G</p></div>
+                        <div><img src="images/member-9.png" alt=""><p>Franck Z</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="post-col">
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p>Scoreur 7</p>
+                            <small>Public <i class="fa-solid fa-sort-down"></i></small>
+                        </div>
+                    </div>
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="What's on your mind, Scoreur 7?"></textarea>
+                        <div class="add-post-links">
+                            <a href="#"><img src="images/live-video.png" alt="">Live video</a>
+                            <a href="#"><img src="images/photo.png" alt="">Photo/Video</a>
+                            <a href="#"><img src="images/feeling.png" alt="">Feeling Activity</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png" alt="">
+                            <div>
+                                <p>Scoreur 7</p>
+                                <span>August 24 2022 13:47 p.m</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                    <p class="post-text">Loke and share this video with friens, tag <span>@ScoreurTube</span> facebook page on your post <a href="#">#Scoreur Corp</a> <a href="#">#ScoreurTube channel</a></p>
+                    <img src="images/feed-image-2.JPG" alt="" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png" alt="bouton de like">245</div>
+                            <div><img src="images/comments.png" alt="image pour commentaires">12</div>
+                            <div><img src="images/share.png" alt="image pour partager">421</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile-pic.png" alt="photo de l'auteur"><i class="fa-solid fa-sort-down"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png" alt="">
+                            <div>
+                                <p>Scoreur 7</p>
+                                <span>August 24 2022 13:47 p.m</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                    <p class="post-text">Loke and share this video with friens, tag <span>@ScoreurTube</span> facebook page on your post <a href="#">#Scoreur Corp</a> <a href="#">#ScoreurTube channel</a></p>
+                    <img src="images/feed-image-3.jpg" alt="" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png" alt="bouton de like">58</div>
+                            <div><img src="images/comments.png" alt="image pour commentaires">24</div>
+                            <div><img src="images/share.png" alt="image pour partager">05</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile-pic.png" alt="photo de l'auteur"><i class="fa-solid fa-sort-down"></i>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png" alt="">
+                            <div>
+                                <p>Scoreur 7</p>
+                                <span>August 24 2022 13:47 p.m</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                    <p class="post-text">Loke and share this video with friens, tag <span>@ScoreurTube</span> facebook page on your post <a href="#">#Scoreur Corp</a> <a href="#">#ScoreurTube channel</a></p>
+                    <img src="images/feed-image-4.jpg" alt="" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png" alt="bouton de like">58</div>
+                            <div><img src="images/comments.png" alt="image pour commentaires">24</div>
+                            <div><img src="images/share.png" alt="image pour partager">05</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile-pic.png" alt="photo de l'auteur"><i class="fa-solid fa-sort-down"></i>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png" alt="">
+                            <div>
+                                <p>Scoreur 7</p>
+                                <span>August 24 2022 13:47 p.m</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                    <p class="post-text">Loke and share this video with friens, tag <span>@ScoreurTube</span> facebook page on your post <a href="#">#Scoreur Corp</a> <a href="#">#ScoreurTube channel</a></p>
+                    <img src="images/feed-image-5.jpg" alt="" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png" alt="bouton de like">58</div>
+                            <div><img src="images/comments.png" alt="image pour commentaires">24</div>
+                            <div><img src="images/share.png" alt="image pour partager">05</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile-pic.png" alt="photo de l'auteur"><i class="fa-solid fa-sort-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>           
+    </div>
+
+    <footer class="footer">
+        <p>Copyright 2022 - Scoreur Tube Channel</p>
+    </footer>
+    
+    <script src="main.js"></script>
+
+</body>
+</html>
